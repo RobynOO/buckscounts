@@ -13,3 +13,40 @@
 }
 
 /* your code */
+
+body{
+  margin: 0 auto;
+  width: 60%;
+  background-color: rgb(5, 46, 5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header {
+  color: white;
+}
+
+header{
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+
+.city-list {
+  border: 1px solid white;
+  margin-top: 1em;
+  color: black;
+}
+
+.city-item {
+  background-color: green;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: .5em;
+  text-align: end;
+}
